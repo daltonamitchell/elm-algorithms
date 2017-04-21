@@ -1,6 +1,7 @@
 module Tests exposing (..)
 
-import Test exposing (..)
+import Test exposing (Test, describe, test, fuzz)
+import Fuzz exposing (list, int)
 import Expect
 import BubbleSort
 
@@ -37,4 +38,11 @@ bubbleSort =
                     [ 1, 2, 3, 4, 5 ]
             in
                 Expect.equal expected (BubbleSort.sort list)
+    , fuzz (list int) "it always sorts correctly" <|
+        \fuzzList ->
+            let
+                expected =
+                    List.sort fuzzList
+            in
+                Expect.equal expected (BubbleSort.sort fuzzList)
     ]
