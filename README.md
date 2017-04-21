@@ -11,9 +11,7 @@ The best way to use these examples is to read through the tests to understand wh
 Follow these steps to get started:
 
 1. Clone this repo
-2. Install Elm: `npm install -g elm`
-3. Install elm-test: `npm install -g elm-test`
-4. Run the tests with this command: `elm test`. **Note:** The first time you run this command Elm will download & install all the dependencies it needs.
+4. Run the tests with this command: `npm test`. **Note:** The first time you run this command Elm will download & install all the dependencies it needs.
 5. All tests are in the `tests` directory and solutions are located in `src`.
 6. Once you understand whats going on, remove the solution code and try to get it working again on your own.
 7. Go forth and conquer!

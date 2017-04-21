@@ -1,0 +1,27 @@
+{
+  "name": "elm-algorithms",
+  "version": "1.0.0",
+  "description": "Elm Algorithms",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-test": "^0.18.2"
+  },
+  "scripts": {
+    "test": "elm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daltonamitchell/elm-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daltonamitchell/elm-algorithms/issues"
+  },
+  "homepage": "https://github.com/daltonamitchell/elm-algorithms#readme"
+}
